@@ -1,4 +1,4 @@
-{
+{ //Text for pull request
   "name": "wdio-tutorial",
   "type": "module",
   "devDependencies": {
