@@ -1,4 +1,4 @@
-it('Task 1 herokuapp ', async() => {
+it('Task 1 - herokuapp ', async() => {
     await browser.url("https://the-internet.herokuapp.com/");
     const elem = await $('a[href="/nested_frames"]').isDisplayed(); 
     expect(elem).toBe(true);
@@ -48,4 +48,5 @@ it('Detects if the nested frame link is displayed', async() => {
   expect(elem2).toBe(true)
   
   
+
 })
