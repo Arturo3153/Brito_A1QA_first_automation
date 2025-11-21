@@ -1,4 +1,4 @@
-describe('Task2 demoqa',() => {
+describe('Task2 - demoqa',() => {
     it('Selects Widgets option and the Progress Bar option', async() => {
         browser.url('https://demoqa.com');      
         const widgetbutton = await $('div.card:nth-child(4)')// await browser.findElement('css selector','Widgets')
@@ -37,4 +37,5 @@ describe('Task2 demoqa',() => {
     expect(elem).toBe(false); 
 
     })
+
 })
