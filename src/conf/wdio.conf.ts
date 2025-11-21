@@ -22,10 +22,11 @@ export const config: WebdriverIO.Config = {
     // The path of the spec files will be resolved relative from the directory of
     // of the config file unless it's absolute.
     //
+    //Text for pull request
     specs: [
         //'../test/**/*.e2e.ts'
         '../test/**/task1.js',
-        //'../test/**/task2.js'
+        '../test/**/task2.js'
     ],
     // Patterns to exclude.
     exclude: [
